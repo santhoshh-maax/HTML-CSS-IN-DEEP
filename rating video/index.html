@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Video Rating</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form action="POST">
+    <video width="320" height="240" controls muted>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <div>
+      <label for="rating">Rating</label>
+      <input type="range" name="rating" id="rating" min="1" max="5" list="ratings">
+      <datalist>  
+        <option value="1" label="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5" label="5"></option>
+      </datalist>
+      
+    </div>
+    <button type="button" onclick="alert('video rated sucessfully')">Submit Rating</button>
+  </form>
+  
+</body>
+
+</html>
