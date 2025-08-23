@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo">
+    </header>
+<main>
+ <nav>
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="location.html">location</a></li>
+        </ul>
+    </nav>
+    <h1>Book Table</h1>
+    <form action="POST">
+        <div>
+            <label for="booking_date">Booking Date</label><br>
+            <input type="date" id="booking_date" name="booking_date"> <br><br>
+        </div>
+           
+        <div>
+             <label for="booking_people">Number of People</label><br>
+            <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+            <!-- sematic html element that contin result of the calcluation -->
+            <output>4</output> <br>
+        </div>
+
+        <div>
+            <label for="booking_location">Location</label> <br>
+            <input id="booking_location" name="booking_location" list="location"> 
+            <datalist id="location"> 
+                <option value="Down town"></option>
+                <option value="Up down"></option>
+            </datalist><br><br>
+        </div>
+        <button type="button" onclick="alert('You just clicked!')">Book 
+</button> 
+        
+    </form>
+
+</main>
+   
+
+    
+
+   
+<footer>Copy rights Littel Lemon</footer>
+</body>
+</html>
