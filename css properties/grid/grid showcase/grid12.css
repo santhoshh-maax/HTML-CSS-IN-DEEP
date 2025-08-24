@@ -1,0 +1,39 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.segment{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px;
+}
+
+.segmenttwelve{
+    background-color: lightgreen;
+    height: 70px;
+    grid-column: 1/ sapn 12;
+}
+
+.segmenteight{
+    background-color: lightcoral;
+    height: 70px;
+    grid-column: 5/ span 8;
+}
+
+.segmentfour{
+    background-color: lightsalmon;
+    height: 70px;
+    grid-column: 1/ span 4;
+}
+.segmentsix{
+    background-color: lightpink;
+    height: 70px;
+    grid-column: 5/ span 8;
+}
+.segmentseven{
+    background-color: lightslategray;
+    height: 70px;
+    grid-column: 8/ sapn 12;
+}
