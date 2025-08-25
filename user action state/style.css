@@ -1,0 +1,16 @@
+.mypage{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mybutton{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+.mybutton:active{
+    background-color:cornflowerblue ;
+    transform: scale(0.99);
+}
