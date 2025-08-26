@@ -1,0 +1,23 @@
+.a {
+    margin: 30px;
+    transform: skewX(0deg);   /* start normal */
+    transition: transform 5s;
+    font-size: 30px;
+}
+
+.a:hover {
+    transform: skewX(20deg);  /* change on hover */
+    color: red;
+}
+
+.b {
+    margin: 100px;
+    font-size: 30px;
+    transform: rotate(0deg);  /* start normal */
+    transition: transform 5s;
+}
+
+.b:hover {
+    transform: rotate(20deg); /* change on hover */
+    color: red;
+}

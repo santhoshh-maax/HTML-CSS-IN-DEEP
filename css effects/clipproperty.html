@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: 'Trebuchet MS';
+            }
+
+            .text{
+                width: 300px;
+                border: 2px solid brown;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: clip;
+            }
+
+            .text:hover{
+              overflow: visible;  
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color: red;">
+            Clip property
+        </h1>
+        <div class="text">
+            This is a long text that will be truncated with an ellipsis when it overflows the container.
+        </div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+/* Already provided in your starter */
+* {
+	padding: 0;
+	margin: 0;
+	color: pink;
+}
+  
+.container {
+	min-height: 100vh;
+	background-color:bisque;
+}
+.letters {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+/* Step 1–7: Style for all p inside .letters */
+.letters p {
+    text-align: center;                      /* Step 1 */
+    background-color: rgb(250, 150, 100);    /* Step 2 */
+    width: 70px;                             /* Step 3 */
+    margin-right: 1.5px;                     /* Step 4 */
+    border-radius: 15%;                      /* Step 5 */
+    border-color: rgb(250, 125, 75);         /* Step 6 */
+    border-style: solid;                     /* Step 7 */
+}
+
+/* Step 8–9: Even children animate on hover */
+.letters:hover p:nth-child(even) {
+    transform: rotateY(360deg);   /* Step 8 */
+    transition: 0.5s;             /* Step 9 */
+}
+
+/* Step 10–11: Odd children animate on hover */
+.letters:hover p:nth-child(odd) {
+    transform: rotateX(360deg);   /* Step 10 */
+    transition: 1.5s;             /* Step 11 */
+}

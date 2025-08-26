@@ -1,0 +1,15 @@
+.box{
+    display: grid;
+    width: 240px;
+    height: 240px;
+    margin: 100px;
+    background-color: rgb(74, 147, 249);
+    border-radius: 12px;
+    border: solid darkblue 4px
+}
+.box:hover{
+    transform: rotateZ(60deg);
+    background-color: rgb(201, 7, 7);
+    /* opacity: 50%; */
+    transition: 2s;
+}
