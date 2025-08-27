@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                padding: 30px;
+            }
+
+            .box{
+                background-color: royalblue;
+                width: 100px;
+                height: 100px;
+                animation: myanimation 3s infinite ease-in;
+            }
+
+            /* @keyframes myanimation{
+                from{ width: 100px;
+                    background-color: royalblue;
+                }
+                to{width: 200px;
+                background-color: red;}
+            } */
+            /* example 2 */
+            @keyframes myanimation{
+                0%{width: 50px;
+                }
+
+                50%{background-color: green;
+                    height: 20px;
+                }
+
+                100%{width: 200px;
+                background-color: red;}
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+
+        </div>
+    </body>
+</html>
