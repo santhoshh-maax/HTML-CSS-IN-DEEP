@@ -79,6 +79,13 @@ article > img{
     /* border-radius: 50%; */
 }
 
+.link{
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 footer {
     display: flex;
     margin-top: end of page;
