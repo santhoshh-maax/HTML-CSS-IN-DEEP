@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: pink;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 3rem;
     margin-bottom: 5rem;
@@ -24,6 +24,22 @@ header > img{
     width: 30rem
 }
 
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    width: max-content;
+    background-color: lavenderblush;
+    margin-left: 25rem;
+}
+
+nav:hover{
+    cursor: pointer;
+}
+
+nav:visited{
+    color: red;
+}
+
 nav ul{
     list-style: none;
     text-align: center;
@@ -42,10 +58,32 @@ article{
     flex: 1;
 }
 
+article > h1{
+    text-align: center;
+    
+}
+
+
+article > h2{
+    margin: 2rem;
+}
+
+
+article > img{
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    border: 2rem solid whitesmoke;
+
+
+    /* border-radius: 50%; */
+}
+
 footer {
     display: flex;
-    margin-top: 3rem;
-    text-align: center;
+    margin-top: end of page;
+    border: 2px solid black;
+    
 }
 
 footer img{
