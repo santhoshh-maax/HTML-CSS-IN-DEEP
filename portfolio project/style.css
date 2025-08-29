@@ -30,6 +30,7 @@ nav{
     width: max-content;
     background-color: lavenderblush;
     margin-left: 25rem;
+    margin-top: 2rem;
 }
 
 nav:hover{
